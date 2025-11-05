@@ -3,8 +3,7 @@
 ignore=tests
 
 [MESSAGE CONTROL]
-        disable = missing-docstring
-        
+
 disable=raw-checker-failed,
         bad-inline-option,
         locally-disabled,
@@ -15,7 +14,8 @@ disable=raw-checker-failed,
         use-symbolic-message-instead,
         missing-module-docstring,
         missing-function-docstring,
-        missing-class-docstring
+        missing-class-docstring,
+        missing-docstring
 
 [FORMAT]
         max-line-length = 80
